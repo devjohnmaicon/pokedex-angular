@@ -1,0 +1,12 @@
+@import "../../../config-scss/rem-calc.scss";
+
+// encapsula os dados do componente, em caso de conflitos de scss
+:host {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: rem-calc(40) 0;
+  }
+}
