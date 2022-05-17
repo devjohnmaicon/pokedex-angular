@@ -3,7 +3,7 @@
 
 <main>
 
-  <!-- <ng-template [ngIf]="isLoading"> -->
+  <ng-template [ngIf]="isLoading">
     <section class="pokemon__names">
       <h1 class="slideInLeft">{{pokemon[0].name}}</h1>
       <h2 class="slideInRight">{{pokemon[1].names[0].name}}</h2>
@@ -36,12 +36,12 @@
         </a>
       </article>
     </section>
-  <!-- </ng-template> -->
+  </ng-template>
 
-  <!-- <img
-    src="assets/error.png"
+  <img
+    src="assets/error.svg"
     alt="Deu erro na mostragem do pokemon"
     width="100%"
     *ngIf="apiError"
-  > -->
+  >
 </main>
